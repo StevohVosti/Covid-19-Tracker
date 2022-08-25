@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app-dropdown {
+  background-color: white;
+}
+
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app-left {
+  flex: 0.9;
+}
+
+.app-right {
+  display: flex;
+}
+
+.app-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 990px){
+  .App {
+    flex-direction: column;
+  }
+}
+
